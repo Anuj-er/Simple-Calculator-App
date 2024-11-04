@@ -180,7 +180,7 @@ const Calculator = () => {
   );
 
   return (
-    <div className="h-screen w-screen  bg-gradient-to-br from-blue-900 to-slate-900 text-white">
+    <div className="min-h-screen w-full overflow-y-auto bg-gradient-to-br from-blue-900 to-slate-900 text-white">
       <div className="h-full w-full flex flex-col lg:flex-row">
         {/* Left Section - Header Content */}
         <div className="w-full lg:w-1/3 p-8 flex flex-col justify-center">
